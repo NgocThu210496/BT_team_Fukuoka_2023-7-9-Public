@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf8">
+    <title>Bài tập 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>
+        <caption>Sign up</caption>
+    </p>
+    <form action="index.html" id="login" name="sign_up" method="post">
+
+        <div class="left-colum">
+            <label for="first_name">First name</label>
+        </div>
+        <div class="right-colum">
+            <input type="text" name="firstname" placeholder="Enter First Name">
+        </div><br><br>
+
+        <div class="left-colum">
+            <label for="last_name">Last Name</label>
+        </div>
+        <div class="right-colum">
+        <input type="text" name="lastname" placeholder="Enter Last Name">
+    </div> <br><br>
+        <div class="left-colum">
+            <label for="date_of_birth">Date of Birth</label>
+        </div>
+        <div class="right-colum">
+        <select id="year" name="yyyy">
+            <option value="year">year</option>
+            <option value="">1990</option>
+            <option value="">1991</option>
+            <option value="">1992</option>
+            <option value="">1993</option>
+            <option value="">1994</option>
+            <option value="">1995</option>
+            <option value="">1996</option>
+            <option value="">1997</option>
+            <option value="">1998</option>
+            <option value="">1999</option>
+            <option value="">2000</option>
+
+        </select>
+        <select id="month" name="mmmm">
+            <option value="month">month</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+
+        </select>
+        <select id="day" name="dddd">
+            <option value="day">day</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+        </select></div> <br><br>
+        <div class="left-colum">
+            <label for="gender">Gender</label>
+        </div>
+        <div class="left-colum">
+        <input type="radio" id="male" value="male" name="gender" checked>
+   
+            <label for="gender">Nam</label>
+      
+        <input type="radio" id="female" value="female" name="gender">
+        
+            <label for="gender">Nữ</label>
+        </div><br><br>
+        <div class="left-colum">
+            <label for="country">Country</label>
+        </div>
+        <div class="right-colum">
+        <select class="country" name="country">
+            <option value="ct">country</option>
+            <option value="vn">Việt Nam</option>
+            <option value="nb">Nhật bản</option>
+        </select></div><br><br>
+        <div class="left-colum">
+            <label for="email">Emali</label>
+        </div>
+        <div class="right-colum">
+        <input type="text" name="email" placeholder="Enter Emali"></div><br><br>
+        
+        <div class="left-colum">
+            <label for="phone">Phone</label>
+        </div>
+        <div class="right-colum">
+        <input type="text" name="phone" placeholder="Enter Phone"></div><br><br>
+        <div class="left-colum">
+            <label for="password">Password</label>
+        </div>
+        <div class="right-colum">
+        <input type="password" name="password" id="pass"></div><br><br>
+        <div class="left-colum">
+        <label for="password">Comfirm Password</label>
+    </div>
+    <div class="right-colum">
+        <input type="password" name="password" id="pass"></div><br><br>
+        <div class="right-colum-checkbox">
+            <input type="checkbox" name="checkbox">
+            <label>I agreeto the terms of user</label>
+        </div><br><br>
+
+    </form>
+    <div class="btn">
+        <input class="submit" type="submit" value="submit" onclick="alert('Bạn đã đăng ký thành công')">
+        <input class="button" type="button" value="canncel" onclick="alert('Bạn muốn quay lại ?')">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table border="1" width="40%" height="300px" bgcolor="White">
+            <!--row1-->
+            <tr>
+                <th colspan="2"><p>Registration Form</p></th>
+            </tr>
+            <!--row2-->
+            <tr>
+                <th><label>Enter Name</label></th>
+                <th><input type="text"></th>
+            </tr>
+            <!---row3--->
+            <tr>
+                <th><label>Enter Password</label></th>
+                <th><input type="text"></th>
+            </tr>
+                
+            <!---row4--->
+            <tr>
+                <th><label>Enter Address</label></th>
+                <th><textarea cols="40" rows="3"></textarea></th>
+            </tr>
+    
+            <!---row5--->
+            <tr >
+                <th><label>Select Game</label></th>
+                <th>
+                    <input type="checkbox">Hockey<br>
+                    <input type="checkbox">Football<br>
+                    <input type="checkbox">Badminton<br>
+                    <input type="checkbox">Cricket<br>
+                    <input type="checkbox">Volleyll
+                </th>
+
+            </tr>
+            <!--row6-->
+            <tr>
+                <th><label>Gender</label></th>
+                <th>
+                    <input type="radio" id="male" value="male" name="gender" required>
+                    <label for="gender">Nam</label>
+                    <input type="radio" id="female" value="female" name="gender" requied>
+                    <label for="gender">Nu</label>
+                </th>
+            </tr>
+            <!--row7-->
+            <tr>
+                <th><label>Select ur age</label></th>
+                <th>
+                    <select name="age">
+                        <option>Select</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>25</option>
+                    </select>
+                </th>
+            </tr>
+            <!--row8-->
+            <tr>
+                <th><label>Select Photo</label></th>
+                <th><input type="file" value="ファイルを選択"></th>
+            </tr>
+            <!--row9-->
+            <tr>
+                <th colspan="2">
+                    <button style="width: 135px;height: 50px;">Click me</button>
+                    <input type="reset" style="width: 135px;height: 50px;" value="リセット"><br>
+                    <input style="width: 135px;height: 50px;" type="submit" value="Submit Form">
+                </th>
+
+            </tr>
+        </tabel>
+    </form>
+
+</body>
+</html>

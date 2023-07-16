@@ -1,0 +1,11 @@
+table{
+    background-color: #2E9AFE;
+}
+table,tr,th{
+    text-align: left;
+}
+p{
+    color: red;
+    text-align: center;
+    background-color: yellow;
+}

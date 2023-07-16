@@ -1,0 +1,74 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+p{
+    width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    height: 50px;
+    color: yellow;
+    background-color: #DBA901;
+}
+form{
+    width: 50%;
+    color: #DBA901;
+    background-color: black;
+}
+.btn{
+    width: 50%;
+    height: 50px;
+    background-color: #DBA901;
+    padding-right: 10px;
+    text-align: right;
+}
+input[type=submit]{
+    color: white;
+    margin: 5px 0px;
+    width: 120px;
+    height: 40px;
+    background-color: green;
+    font-family: sans-serif;;
+}
+input[type=button]{
+    font-family: sans-serif;;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+}
+.left-colum{
+    font-family: sans-serif;;
+    text-align: right;
+    padding-top: 10px;
+    width: 150px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+.right-colum{
+    display: inline-block;
+}
+.right-colum input{
+    width: 280px;
+    height: 35px;
+    margin-left: 40px;
+}
+.right-colum select{
+    width:65px;
+    height: 35px;
+    margin-left: 40px;
+}
+.right-colum .country{
+    height: 30px;
+    width: 100px;
+    margin-left: 40px;
+}
+.right-colum-checkbox{
+    text-align: center;
+    margin-left: 125px;
+    width: 50%;
+    font-size: 20px;
+}
